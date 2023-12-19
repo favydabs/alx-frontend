@@ -11,7 +11,7 @@ html {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
   }
-  a :link{
+  a :link {
     color: var(--text-color);
     text-decoration: none;
   }
