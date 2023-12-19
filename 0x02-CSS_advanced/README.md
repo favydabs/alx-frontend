@@ -8,18 +8,6 @@ A README.md file, at the root of the folder of the project, is mandatory
 Your code should be W3C compliant and validate with W3C-Validator
 Files you need for the project
 favicon.jpg
-
-
-download favicon.jpg
-
 logo-black.png
-
-
-download logo-black.png
-
 logo-white.png
-
-
-download logo-white.png
-
 Store all these under a directory named “images”
