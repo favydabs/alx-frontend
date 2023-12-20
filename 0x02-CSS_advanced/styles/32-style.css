@@ -147,7 +147,7 @@ html {
     float: right;
   }
   
-  .nav-item {
+  .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -156,19 +156,19 @@ html {
     margin: var(--nav-item-margin);
   }
   
-  .nav-link {
+  .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
   }
   
- .nav-link:hover {
+ .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
   }
- .nav-item-link:hover {
+  .nav .nav-item-link:hover {
     color: var(--color-white);
   }
   
-  .nav-link::before {
+  .nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -179,7 +179,7 @@ html {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
   
-  .nav-item:hover .nav-link::before {
+  .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
   }
