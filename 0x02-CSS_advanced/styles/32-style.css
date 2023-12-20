@@ -179,7 +179,7 @@ html {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
   
-  .nav .nav-item:hover .nav-link::before {
+  .nav .nav-item:hover .nav .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
   }
