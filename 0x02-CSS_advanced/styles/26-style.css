@@ -202,7 +202,7 @@ html {
   
   .card-testimonial .card-quote cite {
     display: block;
-    padding-top: var(--root-element);
+    padding-top: 1rem;
     color: var(--color-primary);
   }
   :root {

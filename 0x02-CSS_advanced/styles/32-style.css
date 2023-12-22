@@ -208,7 +208,7 @@ html {
   .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
-    text-decoration: none;
+    text-decoration:none;
   }
   .card-testimonial {
     text-align: center;
